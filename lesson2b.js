@@ -12,7 +12,14 @@ console.log(number1 < number2)
 console.log(number1 != number2)
 console.log(number2 != number2)
 
-// Triple equal sign - Research in javascript
+// Triple equal sign - Research in javascript (the strict equality operator)
+// It compares both value and type
+console.log(5 === 5) // true(both are numbers)
+
+console.log(5 === "5") // false(they are not of the same type)
+
+console.log(true === 1) // false(they are not of the same type)
+
 
 // Logical operators are used to evaluate two or more conditions and they also give a boolean answer
 
