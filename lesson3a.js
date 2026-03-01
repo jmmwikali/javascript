@@ -20,4 +20,3 @@ for (let i = 0; i <= 10; i++) {
     }
 }
 
-// Create a for loop that is able to print out all the leap years from 2000 to 2026
