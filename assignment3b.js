@@ -22,7 +22,7 @@ number(5, 10)
 // funtion function_name(parameter1, parameter2) {body}
 
 function greeting(name) {
-    console.log("Hello", name, "Nice to meet you!")
+    console.log("Hello", name + ". Nice to meet you!")
 }
 greeting("Mercy")
 
