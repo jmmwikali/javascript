@@ -30,3 +30,17 @@ function product(a, b, c) {
     console.log("The product of the three numbers is:", a * b * c)
 }
 product(10, 24, 15)
+
+console.log("=========================")
+// ANONYMOUS FUNCTIONS - Functions without a name
+
+// Used as a callback - It does not need to be invoked
+setTimeout(function() {
+  console.log("Runs after 1 seconds");
+}, 1000);
+
+// Can be stored in a variable
+const greet = function() {
+    console.log("Hello!")
+}
+greet()
